@@ -1,0 +1,5 @@
+{
+  "rev": "1-test",
+  "js": "test.js",
+  "css": "test.css"
+}
