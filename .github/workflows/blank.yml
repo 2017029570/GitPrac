@@ -28,10 +28,10 @@ jobs:
         uses: actions/checkout@v2
       
       - name: checkout other repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@master
         with:
-          repository: 2017029570/MQTT-OAuth
-          ref: master
+          repository: 2017029570/Graduation-Project
+          ref: subDir
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
