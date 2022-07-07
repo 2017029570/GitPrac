@@ -32,7 +32,7 @@ jobs:
         with:
           repository: 2017029570/Graduation-Project
           ref: master
-          path: subDir
+          path: ./subDir
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
