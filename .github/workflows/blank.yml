@@ -27,13 +27,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout github actions repo
         uses: actions/checkout@v2
-      
-      - name: Checkout other repo
-        uses: actions/checkout@v2
-        with:
-          repository: 2017029570/MQTT-OAuth
-          ref: master
-          path: ./subDir
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
@@ -42,6 +35,6 @@ jobs:
           ls $GITHUB_WORKSPACE
 
       # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          cp $GITHUB_WORKSPACE/*.json ~/
+      #- name: Run a multi-line script
+      #  run: |
+      #    cp $GITHUB_WORKSPACE/*.json ~/
