@@ -28,10 +28,11 @@ jobs:
         uses: actions/checkout@v2
       
       - name: checkout other repo
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
         with:
           repository: 2017029570/Graduation-Project
-          ref: subDir
+          ref: master
+          path: subDir
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
